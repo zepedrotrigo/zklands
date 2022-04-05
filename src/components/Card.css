@@ -1,0 +1,22 @@
+.card {
+    height: 20rem;
+    width: 15rem;
+    background-color: whitesmoke;
+    border-radius: 7%;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+h6 {
+    margin-bottom: 5rem;
+    background-color: yellow;
+}
+
+img {
+    height: 10rem;
+    width: 100%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}

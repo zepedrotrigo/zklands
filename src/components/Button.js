@@ -1,7 +1,7 @@
 import "./Button.css";
 
 function Button(props) {
-    return <div className="button">{props.text}</div>
+    return <button className='btn'>{props.text}</button>
 }
 
 export default Button;

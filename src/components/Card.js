@@ -6,7 +6,7 @@ function Card(props) {
         <div className="card">
             <img src={props.image}></img>
             <h6>{props.title}</h6>
-            <Button onClick='alert("hey")' text="Start!"></Button>
+            <Button text="Start!"></Button>
         </div >
     )
 }

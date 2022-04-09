@@ -1,12 +1,15 @@
 import './App.css';
 import Card from './components/Card';
-import Button from './components/Button';
 import imgLab from './img/lab.png'
 
 function App() {
 	// You can put javascript code here or declare constants!
 	// use {} inside html to access variables
 
+    const onClick = () => {
+        console.log('Click');
+	}
+	
 	return (
 		<div>
 			<div className="container container-small">

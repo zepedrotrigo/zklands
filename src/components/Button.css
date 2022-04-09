@@ -1,8 +1,7 @@
 .btn {
     background-color: #080474;
     color: white;
-    margin-left: 30%;
-    max-width: 40%;
+    width: 6rem;
 }
 
 .btn:hover {

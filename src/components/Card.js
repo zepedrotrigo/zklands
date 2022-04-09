@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import "./Card.css";
 import Button from "./Button";
 
@@ -6,7 +7,9 @@ function Card(props) {
         <div className="card">
             <img src={props.image}></img>
             <h6>{props.title}</h6>
-            <Button text="Start!"></Button>
+            <Link to='/course_details'>
+                <Button text="Start!"></Button>
+            </Link>
         </div >
     )
 }

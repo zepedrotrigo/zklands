@@ -18,8 +18,8 @@ function Course() {
                     <h3>{globalVars.chosenCourse}</h3>
                     {displayContent(globalVars.chosenCourse, 0)} {/*TODO page number is hardcoded*/}
                 </div>
-                <Link to='/'>
-                    <Button text="Go back!"></Button>
+                <Link to='/zklands'>
+                    <Button text="Back"></Button>
                 </Link>
             </Container>
         </div>

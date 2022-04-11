@@ -12,9 +12,14 @@ function CourseDetails() {
             <Container>
                 <h3>{globalVars.chosenCourse}</h3>
                 {displayContent(globalVars.chosenCourse)}
-                <Link to='/'>
-                    <Button text="Go back!"></Button>
-                </Link>
+                <div className='buttonsGroup'>
+                    <Link to='/zklands'>
+                        <Button text="Back"></Button>
+                    </Link>
+                    <Link to='/course'>
+                        <Button text="Continue"></Button>
+                    </Link>
+                </div>
             </Container>
         </div>
     );

@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom';
-import globalVars from '../globalVars';
+import { Link, useLocation } from 'react-router-dom';
 import courses from '../json/courses.json';
 import '../App.css';
 import Container from '../components/Container';
@@ -11,12 +10,15 @@ import afl from 'react-syntax-highlighter/dist/esm/styles/hljs/atelier-forest-li
 SyntaxHighlighter.registerLanguage('python', python);
 
 function Course() {
+    let location = useLocation().pathname;
+    let course = location.split("/")[1];
+
     return (
         <div>
             <Container>
                 <div className='dynamic-content'>
-                    <h3>{globalVars.chosenCourse}</h3>
-                    {displayContent(globalVars.chosenCourse, 0)} {/*TODO page number is hardcoded*/}
+                    <h3>{courses[course]["pages"][0]["title"]}</h3>
+                    {displayContent(course, 0)} {/*TODO page number is hardcoded*/}
                 </div>
                 <Link to='/zklands'>
                     <Button text="Back"></Button>
@@ -32,12 +34,12 @@ function displayContent(course, page) {
     let p = courses[course]["pages"][page];
     let lines = p["lines"]
 
-    Object.keys(lines).map(function(keyName, keyIndex) {
+    Object.keys(lines).map(function (keyName, keyIndex) {
         l = lines[keyName]
 
         if (l["type"] === "text")
             content.push(<p>{l["content"]}</p>);
-        else if(l["type"] === "jsx")
+        else if (l["type"] === "jsx")
             content.push(<div dangerouslySetInnerHTML={{ __html: l["content"] }}></div>);
         else
             content.push(<SyntaxHighlighter language='l["type"]' style={afl}>{l["content"]}</SyntaxHighlighter>);

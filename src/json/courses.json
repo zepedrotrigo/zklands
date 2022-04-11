@@ -1,16 +1,17 @@
 {
-    "Applied Cryptography": {
+    "applied_cryptography": {
+        "name": "Applied Cryptography",
         "overview": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+            "Applied Cryptography Overview Line 1\n",
+            "Applied Cryptography Overview Line 2\n",
+            "Applied Cryptography Overview Line 3\n",
+            "Applied Cryptography Overview Line 4\n",
+            "Applied Cryptography Overview Line 5\n",
+            "Applied Cryptography Overview Line 6\n"
         ],
         "pages": [
             {
-                "title": "Page 1",
+                "title": "Applied Cryptography Page 1",
                 "terminal": true,
                 "replit": "https://replit.com/@josetrigo2001/Welcome-to-ZKlands?lite=true",
                 "lines": [
@@ -29,7 +30,7 @@
                 ]
             },
             {
-                "title": "Page 2",
+                "title": "Applied Cryptography Page 2",
                 "terminal": false,
                 "replit": "",
                 "lines": [
@@ -49,18 +50,19 @@
             }
         ]
     },
-    "Modular Arithmetic": {
+    "modular_arithmetic": {
+        "name": "Modular Arithmetic",
         "overview": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+            "Modular Arithmetic Overview Line 1\n",
+            "Modular Arithmetic Overview Line 2\n",
+            "Modular Arithmetic Overview Line 3\n",
+            "Modular Arithmetic Overview Line 4\n",
+            "Modular Arithmetic Overview Line 5\n",
+            "Modular Arithmetic Overview Line 6\n"
         ],
         "pages": [
             {
-                "title": "Page 1",
+                "title": "Modular Arithmetic Page 1",
                 "terminal": true,
                 "replit": "https://replit.com/@josetrigo2001/Welcome-to-ZKlands?lite=true",
                 "lines": [
@@ -79,7 +81,109 @@
                 ]
             },
             {
-                "title": "Page 2",
+                "title": "Modular Arithmetic Page 2",
+                "terminal": false,
+                "replit": "",
+                "lines": [
+                    {
+                        "type": "python",
+                        "content": "print('hello world!')\n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    }
+                ]
+            }
+        ]
+    },
+    "discrete_maths": {
+        "name": "Discrete Maths",
+        "overview": [
+            "Discrete Maths Overview Line 1\n",
+            "Discrete Maths Overview Line 2\n",
+            "Discrete Maths Overview Line 3\n",
+            "Discrete Maths Overview Line 4\n",
+            "Discrete Maths Overview Line 5\n",
+            "Discrete Maths Overview Line 6\n"
+        ],
+        "pages": [
+            {
+                "title": "Discrete Maths Page 1",
+                "terminal": true,
+                "replit": "https://replit.com/@josetrigo2001/Welcome-to-ZKlands?lite=true",
+                "lines": [
+                    {
+                        "type": "python",
+                        "content": "print('hello world!')\nx=2\narrayList= [1,2,3,'Joana']\nfor i in range(len(arrayList)):\n\ttime.sleep(3)"
+                    },
+                    {
+                        "type": "jsx",
+                        "content": "<strong>Lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    }
+                ]
+            },
+            {
+                "title": "Discrete Maths Page 2",
+                "terminal": false,
+                "replit": "",
+                "lines": [
+                    {
+                        "type": "python",
+                        "content": "print('hello world!')\n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    }
+                ]
+            }
+        ]
+    },
+    "number_theory": {
+        "name": "Number Theory",
+        "overview": [
+            "Number Theory Overview Line 1\n",
+            "Number Theory Overview Line 2\n",
+            "Number Theory Overview Line 3\n",
+            "Number Theory Overview Line 4\n",
+            "Number Theory Overview Line 5\n",
+            "Number Theory Overview Line 6\n"
+        ],
+        "pages": [
+            {
+                "title": "Number Theory Page 1",
+                "terminal": true,
+                "replit": "https://replit.com/@josetrigo2001/Welcome-to-ZKlands?lite=true",
+                "lines": [
+                    {
+                        "type": "python",
+                        "content": "print('hello world!')\nx=2\narrayList= [1,2,3,'Joana']\nfor i in range(len(arrayList)):\n\ttime.sleep(3)"
+                    },
+                    {
+                        "type": "jsx",
+                        "content": "<strong>Lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend urna sed porttitor tristique. Mauris id lectus nec orci dignissim.\n"
+                    }
+                ]
+            },
+            {
+                "title": "Number Theory Page 2",
                 "terminal": false,
                 "replit": "",
                 "lines": [

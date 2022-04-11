@@ -1,5 +1,5 @@
 const globalVars = {
-    chosenCourse: "Applied Cryptography" //Should be ""
+    chosenCourse: ""
 };
 
 export default globalVars;

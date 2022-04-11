@@ -1,22 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import globalVars from '../globalVars';
+import { Link, useLocation } from 'react-router-dom';
 import courses from '../json/courses.json';
 import '../App.css';
 import Container from '../components/Container';
 import Button from "../components/Button";
 
 function CourseDetails() {
+    let location = useLocation().pathname;
+    let course = location.split("/")[1];
+
     return (
         <div>
             <Container>
-                <h3>{globalVars.chosenCourse}</h3>
-                {displayContent(globalVars.chosenCourse)}
+                <h3>{courses[course]["name"]}</h3>
+                {displayContent(course)}
                 <div className='buttonsGroup'>
                     <Link to='/zklands'>
                         <Button text="Back"></Button>
                     </Link>
-                    <Link to='/course'>
+                    <Link to={`/${course}`}>
                         <Button text="Continue"></Button>
                     </Link>
                 </div>

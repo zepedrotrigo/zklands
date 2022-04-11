@@ -12,7 +12,7 @@ function Card(props) {
         <div className="card">
             <img src={props.image} alt="course's illustration"></img>
             <h6>{props.title}</h6>
-            <Link to='/course_details'>
+            <Link to={props.linkTo}>
                 <Button text={props.buttonText} onClick={() => getCourseTitle(props.title)}></Button>
             </Link>
         </div >

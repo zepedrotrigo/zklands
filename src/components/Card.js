@@ -13,7 +13,7 @@ function Card(props) {
             <img src={props.image}></img>
             <h6>{props.title}</h6>
             <Link to='/course_details'>
-                <Button text="Start!" onClick={() => getCourseTitle(props.title)}></Button>
+                <Button text={props.buttonText} onClick={() => getCourseTitle(props.title)}></Button>
             </Link>
         </div >
     )

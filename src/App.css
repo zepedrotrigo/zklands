@@ -4,6 +4,10 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+body {
+	background-color: white;
+}
+
 .cardsGroup {
 	padding-top: 3%;
 	width: 100%;
@@ -20,4 +24,8 @@ h3 {
 p {
 	white-space: pre-wrap;
 	text-align: justify;
+}
+
+code {
+	white-space: pre-wrap;
 }

@@ -41,8 +41,6 @@ function displayContent(course, page) {
             content.push(<div dangerouslySetInnerHTML={{ __html: l["content"] }}></div>);
         else
             content.push(<SyntaxHighlighter language='l["type"]' style={afl}>{l["content"]}</SyntaxHighlighter>);
-        
-        return; // just to clear a warning on build
     })
 
     if (p["terminal"])

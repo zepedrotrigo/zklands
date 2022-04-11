@@ -26,7 +26,6 @@ function displayContent(course) {
 
     Object.keys(ovr).map(function (keyName, keyIndex) {
         content.push(<p>{ovr[keyName]}</p>);
-        return; // just to clear a warning on build
     })
 
     return content;

@@ -11,7 +11,7 @@ function CourseDetails() {
 
     return (
         <div>
-            <Container>
+            <Container extClass="container bigger-padding">
                 <h3>{courses[course]["name"]}</h3>
                 {displayContent(course)}
                 <div className='buttonsGroup'>

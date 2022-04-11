@@ -1,4 +1,4 @@
-.container {
+.card-container {
 	height: 100%;
 	width: 80%;
 	background-color: #F2F2F2;
@@ -8,14 +8,30 @@
 	padding-bottom: 1rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	margin-bottom: 3rem;
-	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-	border-radius: 0.5%;
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+	border: 1px solid rgba(var(--b6a,219,219,219),1);
+	border-radius: 15px;
 	padding: 2%;
 }
 
-.container.bigger-padding {
+.container {
+	height: 100%;
+	width: 60%;
+	background-color: #F2F2F2;
+	text-align: left;
+	margin-top: 3rem;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 3rem;
+	border: 1px solid rgba(var(--b6a,219,219,219),1);
+	border-radius: 15px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	padding: 4rem;
 	padding-left: 10rem;
 	padding-right: 10rem;
 }

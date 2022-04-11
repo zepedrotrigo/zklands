@@ -1,11 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 
-* {
-	font-family: 'Poppins', sans-serif;
+h3 {
+	font-family: 'IBM Plex Mono', monospace;
+	align-self: center;
+	color: #070464;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	white-space: pre-wrap;
+	text-align: justify;
+	color: #070464;
+}
+
+h6 {
+	font-family: 'IBM Plex Mono', monospace;
+	align-self: center;
+	color: #070464;
+	margin-top: 0.5rem;
 }
 
 body {
-	background-color: white;
+	background-color: rgba(var(--b3f,250,250,250),1);
 }
 
 .cardsGroup {
@@ -26,28 +44,11 @@ body {
 	align-items: center;
 }
 
-.details-text {
-	padding-top: 4rem;
-}
-
 .align-center {
 	align-self: center;
 }
 
-.bold {
-	font-weight: bold;
-}
-
-h5 {
-	white-space: pre-wrap;
-	text-align: justify;
-}
-
-p {
-	white-space: pre-wrap;
-	text-align: justify;
-}
-
-code {
-	white-space: pre-wrap;
+.md-spacing {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }

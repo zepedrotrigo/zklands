@@ -15,7 +15,7 @@ function Course() {
 
     return (
         <div>
-            <Container>
+            <Container extClass="card-container">
                 <div className='dynamic-content'>
                     <h3>{courses[course]["pages"][0]["title"]}</h3>
                     {displayContent(course, 0)} {/*TODO page number is hardcoded*/}

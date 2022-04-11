@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import globalVars from '../globalVars';
 import course_details from '../json/course_details.json';
 import '../App.css';
+import Container from '../components/Container';
 import Button from "../components/Button";
 
 class CourseDetails extends React.Component {
@@ -18,13 +19,13 @@ class CourseDetails extends React.Component {
     render() {
         return (
             <div>
-                <div className="container">
+                <Container>
                     <h3>{globalVars.chosenCourse}</h3>
                     <p>{this.loadCourseDetails()}</p>
                     <Link to='/'>
                         <Button text="Go back!"></Button>
                     </Link>
-                </div>
+                </Container>
             </div>
         );
     }

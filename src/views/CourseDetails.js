@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import courses from '../json/courses.json';
 import '../App.css';
 import Container from '../components/Container';
-import Button from "../components/Button";
+import ArrowButton from "../components/ArrowButton"
 
 function CourseDetails() {
     let location = useLocation().pathname;
@@ -16,12 +16,12 @@ function CourseDetails() {
                 <div>
                     {displayContent(course)}
                 </div>
-                <div className='buttonsGroup'>
-                    <Link to='/zklands'>
-                        <Button text="Back"></Button>
+                <div className='arrowsGroup'>
+                    <Link to={`/zklands`}>
+                        <ArrowButton dir="left"></ArrowButton>
                     </Link>
                     <Link to={`/${course}`}>
-                        <Button text="Continue"></Button>
+                        <ArrowButton dir="right"></ArrowButton>
                     </Link>
                 </div>
             </Container>

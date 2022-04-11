@@ -8,7 +8,7 @@ function Container({ children, extClass }) {
     return (
         <div
             ref={ref}
-            className={inView ? animatedClass : extClass}
+            className={(inView && !extClass.includes("no-anim")) ? animatedClass : extClass}
             style={inView ? { visibility: 'visible' } : { visibility: 'hidden' }}
         >
             {children}

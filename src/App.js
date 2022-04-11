@@ -8,10 +8,6 @@ function App() {
 	// You can put javascript code here or declare constants!
 	// use {} inside html to access variables
 
-	//const onClick = () => {
-	//	console.log('Click');
-	//}
-
 	return (
 		<Router>
 			<div className='App'>

@@ -11,7 +11,7 @@ function CourseDetails() {
 
     return (
         <div>
-            <Container>
+            <Container extClass="container no-anim">
                 <h3 className='align-center'>{courses[course]["name"]}</h3>
                 <div>
                     {displayContent(course)}

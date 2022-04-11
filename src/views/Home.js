@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import '../App.css';
 import Container from '../components/Container';
 import Card from '../components/Card';
@@ -5,14 +6,17 @@ import imgLab from '../img/lab.png';
 import 'animate.css';
 
 function Home() {
-
+	useEffect(() => {
+		window.scrollTo(0, 0)
+    });
+    
     return (
         <div>
             <Container extClass={"card-container"}>
                 <h3 className='align-center'>ZK Lands</h3>
                 <h5 className='align-center'>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass={"card-container"}>
+            <Container extClass={"card-container no-anim"}>
                 <h3 className='align-center'>SECTION 1: PREREQUISITE TOPICS</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>

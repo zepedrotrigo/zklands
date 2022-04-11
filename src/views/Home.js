@@ -9,10 +9,11 @@ function Home() {
     return (
         <div>
             <Container>
-                <p>Some text<br></br>Did you know that this and that is intersting?</p>
+                <h3 className='align-center'>ZK Lands</h3>
+                <h5 className='align-center'>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
             <Container>
-                <h3>Section 1: Prerequisite topics</h3>
+                <h3 className='align-center'>Section 1: Prerequisite topics</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
@@ -21,7 +22,7 @@ function Home() {
                 </div>
             </Container>
             <Container>
-                <h3>Section 2: Zero Knowledge (Pre-Blockchain)</h3>
+                <h3 className='align-center'>Section 2: Zero Knowledge (Pre-Blockchain)</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
@@ -30,7 +31,7 @@ function Home() {
                 </div>
             </Container>
             <Container>
-                <h3>Section 3: Zero Knowledge (Post-Blockchain)</h3>
+                <h3 className='align-center'>Section 3: Zero Knowledge (Post-Blockchain)</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
@@ -39,7 +40,7 @@ function Home() {
                 </div>
             </Container>
             <Container>
-                <h3>Section 4: Future of Zero Knowledge</h3>
+                <h3 className='align-center'>Section 4: Future of Zero Knowledge</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>

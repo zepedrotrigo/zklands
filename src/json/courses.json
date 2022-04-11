@@ -2,12 +2,19 @@
     "applied_cryptography": {
         "name": "Applied Cryptography",
         "overview": [
-            "Applied Cryptography Overview Line 1\n",
-            "Applied Cryptography Overview Line 2\n",
-            "Applied Cryptography Overview Line 3\n",
-            "Applied Cryptography Overview Line 4\n",
-            "Applied Cryptography Overview Line 5\n",
-            "Applied Cryptography Overview Line 6\n"
+            "\tThe use of elliptic curves for public-key cryptography was first suggested in 1985. After resisting decades of attacks, they started to see widespread use from around 2005, providing several benefits over previous public-key cryptosystems such as RSA.\n\n\tSmaller EC keys offer greater strength, with a 256-bit EC key having the same security level as a 3072-bit RSA key. Furthermore, several operations using those keys (including signing) can be more efficient both time- and memory-wise. Finally, since ECC is more complex than RSA, it has the welcome effect of encouraging developers to make use of trusted libraries rather than rolling their own.\n\n\tThis course is aimed to give you an intuition for the trapdoor function behind ECC; dip your toes into the mathematical structure underlying it; and have you breaking popular schemes like ECDSA.\n"
+        ],
+        "topics": [
+            "Background Reading",
+            "Point Negation",
+            "Point Addition",
+            "Scalar Multiplication",
+            "Curves and Logs",
+            "Efficient Exchange",
+            "Montgomery's Ladder",
+            "Smooth Criminal",
+            "Curveball",
+            "ProSign"
         ],
         "pages": [
             {
@@ -53,12 +60,19 @@
     "modular_arithmetic": {
         "name": "Modular Arithmetic",
         "overview": [
-            "Modular Arithmetic Overview Line 1\n",
-            "Modular Arithmetic Overview Line 2\n",
-            "Modular Arithmetic Overview Line 3\n",
-            "Modular Arithmetic Overview Line 4\n",
-            "Modular Arithmetic Overview Line 5\n",
-            "Modular Arithmetic Overview Line 6\n"
+            "\tThe use of elliptic curves for public-key cryptography was first suggested in 1985. After resisting decades of attacks, they started to see widespread use from around 2005, providing several benefits over previous public-key cryptosystems such as RSA.\n\n\tSmaller EC keys offer greater strength, with a 256-bit EC key having the same security level as a 3072-bit RSA key. Furthermore, several operations using those keys (including signing) can be more efficient both time- and memory-wise. Finally, since ECC is more complex than RSA, it has the welcome effect of encouraging developers to make use of trusted libraries rather than rolling their own.\n\n\tThis course is aimed to give you an intuition for the trapdoor function behind ECC; dip your toes into the mathematical structure underlying it; and have you breaking popular schemes like ECDSA.\n"
+        ],
+        "topics": [
+            "Background Reading",
+            "Point Negation",
+            "Point Addition",
+            "Scalar Multiplication",
+            "Curves and Logs",
+            "Efficient Exchange",
+            "Montgomery's Ladder",
+            "Smooth Criminal",
+            "Curveball",
+            "ProSign"
         ],
         "pages": [
             {
@@ -104,12 +118,19 @@
     "discrete_maths": {
         "name": "Discrete Maths",
         "overview": [
-            "Discrete Maths Overview Line 1\n",
-            "Discrete Maths Overview Line 2\n",
-            "Discrete Maths Overview Line 3\n",
-            "Discrete Maths Overview Line 4\n",
-            "Discrete Maths Overview Line 5\n",
-            "Discrete Maths Overview Line 6\n"
+            "\tThe use of elliptic curves for public-key cryptography was first suggested in 1985. After resisting decades of attacks, they started to see widespread use from around 2005, providing several benefits over previous public-key cryptosystems such as RSA.\n\n\tSmaller EC keys offer greater strength, with a 256-bit EC key having the same security level as a 3072-bit RSA key. Furthermore, several operations using those keys (including signing) can be more efficient both time- and memory-wise. Finally, since ECC is more complex than RSA, it has the welcome effect of encouraging developers to make use of trusted libraries rather than rolling their own.\n\n\tThis course is aimed to give you an intuition for the trapdoor function behind ECC; dip your toes into the mathematical structure underlying it; and have you breaking popular schemes like ECDSA.\n"
+        ],
+        "topics": [
+            "Background Reading",
+            "Point Negation",
+            "Point Addition",
+            "Scalar Multiplication",
+            "Curves and Logs",
+            "Efficient Exchange",
+            "Montgomery's Ladder",
+            "Smooth Criminal",
+            "Curveball",
+            "ProSign"
         ],
         "pages": [
             {
@@ -155,12 +176,19 @@
     "number_theory": {
         "name": "Number Theory",
         "overview": [
-            "Number Theory Overview Line 1\n",
-            "Number Theory Overview Line 2\n",
-            "Number Theory Overview Line 3\n",
-            "Number Theory Overview Line 4\n",
-            "Number Theory Overview Line 5\n",
-            "Number Theory Overview Line 6\n"
+            "\tThe use of elliptic curves for public-key cryptography was first suggested in 1985. After resisting decades of attacks, they started to see widespread use from around 2005, providing several benefits over previous public-key cryptosystems such as RSA.\n\n\tSmaller EC keys offer greater strength, with a 256-bit EC key having the same security level as a 3072-bit RSA key. Furthermore, several operations using those keys (including signing) can be more efficient both time- and memory-wise. Finally, since ECC is more complex than RSA, it has the welcome effect of encouraging developers to make use of trusted libraries rather than rolling their own.\n\n\tThis course is aimed to give you an intuition for the trapdoor function behind ECC; dip your toes into the mathematical structure underlying it; and have you breaking popular schemes like ECDSA.\n"
+        ],
+        "topics": [
+            "Background Reading",
+            "Point Negation",
+            "Point Addition",
+            "Scalar Multiplication",
+            "Curves and Logs",
+            "Efficient Exchange",
+            "Montgomery's Ladder",
+            "Smooth Criminal",
+            "Curveball",
+            "ProSign"
         ],
         "pages": [
             {

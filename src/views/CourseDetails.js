@@ -4,6 +4,7 @@ import courses from '../json/courses.json';
 import '../App.css';
 import Container from '../components/Container';
 import Button from "../components/Button";
+import List from '../components/List';
 
 function CourseDetails() {
     let location = useLocation().pathname;
@@ -12,8 +13,11 @@ function CourseDetails() {
     return (
         <div>
             <Container extClass="container bigger-padding">
-                <h3>{courses[course]["name"]}</h3>
-                {displayContent(course)}
+                <h3 className='align-center bolder'><strong>{courses[course]["name"]}</strong></h3>
+                <div className='details-text'>
+                    {displayContent(course)}
+                </div>
+                <List></List>
                 <div className='buttonsGroup'>
                     <Link to='/zklands'>
                         <Button text="Back"></Button>
@@ -32,7 +36,7 @@ function displayContent(course) {
     let ovr = courses[course]["overview"];
 
     Object.keys(ovr).map(function (keyName, keyIndex) {
-        content.push(<p>{ovr[keyName]}</p>);
+        content.push(<h5><strong>{ovr[keyName]}</strong></h5>);
     })
 
     return content;

@@ -26,8 +26,21 @@ body {
 	align-items: center;
 }
 
-h3 {
-	font-family: 'Poppins', sans-serif;
+.details-text {
+	padding-top: 4rem;
+}
+
+.align-center {
+	align-self: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+h5 {
+	white-space: pre-wrap;
+	text-align: justify;
 }
 
 p {

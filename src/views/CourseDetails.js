@@ -11,7 +11,7 @@ class CourseDetails extends React.Component {
     };
 
     loadCourseDetails() {
-        const course = globalVars.chosenCourse
+        const course = globalVars.chosenCourse;
         return course_details[course]
     }
 

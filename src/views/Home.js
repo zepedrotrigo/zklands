@@ -1,13 +1,16 @@
+import Container from '../components/Container';
 import Card from '../components/Card';
-import imgLab from '../img/lab.png'
+import imgLab from '../img/lab.png';
+import 'animate.css';
 
 function Home() {
+
     return (
         <div>
-            <div className="container">
+            <Container>
                 <p>Some text<br></br>Did you know that this and that is intersting?</p>
-            </div>
-            <div className="container">
+            </Container>
+            <Container>
                 <h3>Section 1: Prerequisite topics</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab}></Card>
@@ -15,8 +18,8 @@ function Home() {
                     <Card title="Discrete Maths" image={imgLab}></Card>
                     <Card title="Number Theory" image={imgLab}></Card>
                 </div>
-            </div>
-            <div className="container">
+            </Container>
+            <Container>
                 <h3>Section 2: Zero Knowledge (Pre-Blockchain)</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab}></Card>
@@ -24,8 +27,8 @@ function Home() {
                     <Card title="Discrete Maths" image={imgLab}></Card>
                     <Card title="Number Theory" image={imgLab}></Card>
                 </div>
-            </div>
-            <div className="container">
+            </Container>
+            <Container>
                 <h3>Section 3: Zero Knowledge (Post-Blockchain)</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab}></Card>
@@ -33,8 +36,8 @@ function Home() {
                     <Card title="Discrete Maths" image={imgLab}></Card>
                     <Card title="Number Theory" image={imgLab}></Card>
                 </div>
-            </div>
-            <div className="container">
+            </Container>
+            <Container>
                 <h3>Section 4: Future of Zero Knowledge</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab}></Card>
@@ -42,7 +45,7 @@ function Home() {
                     <Card title="Discrete Maths" image={imgLab}></Card>
                     <Card title="Number Theory" image={imgLab}></Card>
                 </div>
-            </div>
+            </Container>
         </div>
     )
 }

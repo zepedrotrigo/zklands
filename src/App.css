@@ -5,7 +5,7 @@
 }
 
 .container {
-	height: 28rem;
+	height: 100%;
 	width: 80%;
 	background-color: whitesmoke;
 	text-align: left;
@@ -19,13 +19,11 @@
 	margin-bottom: 3rem;
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 	border-radius: 0.5%;
-}
-
-.container-small {
-	height: 10rem;
+	padding: 2%;
 }
 
 .cardsGroup {
+	padding-top: 3%;
 	width: 100%;
 	display: flex;
 	flex-direction: row;

@@ -4,7 +4,7 @@ import imgLab from '../img/lab.png'
 function Home() {
     return (
         <div>
-            <div className="container container-small">
+            <div className="container">
                 <p>Some text<br></br>Did you know that this and that is intersting?</p>
             </div>
             <div className="container">

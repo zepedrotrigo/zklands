@@ -32,7 +32,7 @@ function displayContent(course, page) {
     let p = courses[course]["pages"][page];
     let lines = p["lines"]
 
-    Object.keys(lines).map(function (keyName, keyIndex) {
+    Object.keys(lines).map(function(keyName, keyIndex) {
         l = lines[keyName]
 
         if (l["type"] === "text")
@@ -41,10 +41,12 @@ function displayContent(course, page) {
             content.push(<div dangerouslySetInnerHTML={{ __html: l["content"] }}></div>);
         else
             content.push(<SyntaxHighlighter language='l["type"]' style={afl}>{l["content"]}</SyntaxHighlighter>);
+        
+        return; // just to clear a warning on build
     })
 
     if (p["terminal"])
-        content.push(<iframe frameBorder="0" width="100%" height="500rem" src={p["replit"]}></iframe>);
+        content.push(<iframe title="replIDE" frameBorder="0" width="100%" height="500rem" src={p["replit"]}></iframe>);
 
     return content;
 }

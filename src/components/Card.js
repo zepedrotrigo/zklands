@@ -10,7 +10,7 @@ function Card(props) {
 
     return (
         <div className="card">
-            <img src={props.image}></img>
+            <img src={props.image} alt="course's illustration"></img>
             <h6>{props.title}</h6>
             <Link to='/course_details'>
                 <Button text={props.buttonText} onClick={() => getCourseTitle(props.title)}></Button>

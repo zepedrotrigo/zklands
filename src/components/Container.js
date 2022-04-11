@@ -1,4 +1,5 @@
 import { useInView } from 'react-intersection-observer';
+import "./Container.css";
 
 function Container({ children }) {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3, delay: 500 });

@@ -1,3 +1,4 @@
+import '../App.css';
 import Container from '../components/Container';
 import Card from '../components/Card';
 import imgLab from '../img/lab.png';

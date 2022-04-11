@@ -1,0 +1,17 @@
+.container {
+	height: 100%;
+	width: 80%;
+	background-color: whitesmoke;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 3rem;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	border-radius: 0.5%;
+	padding: 2%;
+}

@@ -36,3 +36,8 @@
 h3 {
 	font-family: 'Poppins', sans-serif;
 }
+
+p {
+	white-space: pre-wrap;
+	text-align: justify;
+}

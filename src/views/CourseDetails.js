@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import globalVars from '../globalVars';
-import course_details from '../text_files/course_details.json';
+import course_details from '../json/course_details.json';
+import '../App.css';
 import Button from "../components/Button";
 
 class CourseDetails extends React.Component {

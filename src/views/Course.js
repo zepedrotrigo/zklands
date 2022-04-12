@@ -1,8 +1,9 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, } from 'react-router-dom';
+import { useState } from 'react';
 import courses from '../json/courses.json';
 import '../App.css';
 import Container from '../components/Container';
-import Button from "../components/Button";
+import ArrowButton from "../components/ArrowButton"
 
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
 import python from 'react-syntax-highlighter/dist/esm/languages/hljs/python';
@@ -12,17 +13,17 @@ SyntaxHighlighter.registerLanguage('python', python);
 function Course() {
     let location = useLocation().pathname;
     let course = location.split("/")[1];
+    const [pageCounter, setCount] = useState(0);
 
     return (
         <div>
-            <Container extClass="card-container">
+            <Container extClass="container bg no-anim">
                 <div className='dynamic-content'>
-                    <h3>{courses[course]["pages"][0]["title"]}</h3>
-                    {displayContent(course, 0)} {/*TODO page number is hardcoded*/}
+                    <h3>{courses[course]["pages"][pageCounter]["title"]}</h3>
+                    {displayContent(course, courses[course]["pages"][pageCounter])}
                 </div>
-                <Link to='/zklands'>
-                    <Button text="Back"></Button>
-                </Link>
+                <ArrowButton dir="left" onClick={() => setCount(pageCounter - 1)}/>
+                <ArrowButton dir="right" onClick={() => setCount(pageCounter + 1)}/>
             </Container>
         </div>
     );
@@ -31,8 +32,7 @@ function Course() {
 function displayContent(course, page) {
     let l;
     let content = [];
-    let p = courses[course]["pages"][page];
-    let lines = p["lines"]
+    let lines = page["lines"]
 
     Object.keys(lines).map(function (keyName, keyIndex) {
         l = lines[keyName]
@@ -45,8 +45,8 @@ function displayContent(course, page) {
             content.push(<SyntaxHighlighter language='l["type"]' style={afl}>{l["content"]}</SyntaxHighlighter>);
     })
 
-    if (p["terminal"])
-        content.push(<iframe title="replIDE" frameBorder="0" width="100%" height="500rem" src={p["replit"]}></iframe>);
+    if (page["terminal"])
+        content.push(<iframe title="replIDE" frameBorder="0" width="100%" height="500rem" src={page["replit"]}></iframe>);
 
     return content;
 }

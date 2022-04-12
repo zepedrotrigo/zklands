@@ -1,5 +1,5 @@
 import { Link, useLocation, } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import courses from '../json/courses.json';
 import '../App.css';
 import Container from '../components/Container';
@@ -15,6 +15,10 @@ function Course() {
     let location = useLocation().pathname;
     let course = location.split("/")[1];
     let currentPage = courses[course]["pages"][pageCounter]
+
+    useEffect(() => {
+		window.scrollTo(0, 0)
+    });
 
     return (
         <div>

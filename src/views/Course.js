@@ -11,16 +11,17 @@ import afl from 'react-syntax-highlighter/dist/esm/styles/hljs/atelier-forest-li
 SyntaxHighlighter.registerLanguage('python', python);
 
 function Course() {
+    const [pageCounter, setCount] = useState(0);
     let location = useLocation().pathname;
     let course = location.split("/")[1];
-    const [pageCounter, setCount] = useState(0);
+    let currentPage = courses[course]["pages"][pageCounter]
 
     return (
         <div>
             <Container extClass="container bg no-anim">
                 <div className='dynamic-content'>
-                    <h3>{courses[course]["pages"][pageCounter]["title"]}</h3>
-                    {displayContent(course, courses[course]["pages"][pageCounter])}
+                    <h3>{currentPage["title"]}</h3>
+                    {displayContent(currentPage)}
                 </div>
                 <ArrowButton dir="left" onClick={() => setCount(pageCounter - 1)}/>
                 <ArrowButton dir="right" onClick={() => setCount(pageCounter + 1)}/>
@@ -29,7 +30,7 @@ function Course() {
     );
 }
 
-function displayContent(course, page) {
+function displayContent(page) {
     let l;
     let content = [];
     let lines = page["lines"]

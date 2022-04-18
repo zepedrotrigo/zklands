@@ -15,13 +15,13 @@ function CourseDetails() {
 
     return (
         <div>
-            <Container extClass="container sm">
-                <h3 className='align-center'>ZK Lands</h3>
-                <h5 className='align-center'>{"A fun, free platform for learning about zero knowledge!"}</h5>
+            <Container extClass="container bg-margin no-anim">
+                <h3>ZK Lands</h3>
+                <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container no-anim">
-                <h3 className='align-center'>{courses[course]["name"]}</h3>
-                <div>
+            <Container extClass="container bg-margin bg-padding no-anim">
+                <h3>{courses[course]["name"]}</h3>
+                <div className='justify'>
                     {displayContent(course)}
                 </div>
                 <div className='arrowsGroup'>
@@ -42,7 +42,7 @@ function displayContent(course) {
     let ovr = courses[course]["overview"];
 
     Object.keys(ovr).map(function (keyName, keyIndex) {
-        content.push(<h5 className='md-spacing'>{ovr[keyName]}</h5>);
+        content.push(<h5 className='top-spacing-bg'>{ovr[keyName]}</h5>);
     })
 
     return content;

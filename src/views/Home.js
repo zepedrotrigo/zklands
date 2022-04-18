@@ -12,12 +12,12 @@ function Home() {
     
     return (
         <div>
-            <Container extClass={"card-container"}>
-                <h3 className='align-center'>ZK Lands</h3>
-                <h5 className='align-center'>{"A fun, free platform for learning about zero knowledge!"}</h5>
+            <Container>
+                <h3>ZK Lands</h3>
+                <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass={"card-container no-anim"}>
-                <h3 className='align-center'>SECTION 1: PREREQUISITE TOPICS</h3>
+            <Container extClass={"container no-anim"}>
+                <h3>SECTION 1: PREREQUISITE TOPICS</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
@@ -25,8 +25,8 @@ function Home() {
                     <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/number_theory/details"></Card>
                 </div>
             </Container>
-            <Container extClass={"card-container"}>
-                <h3 className='align-center'>SECTION 2: ZERO KNOWLEDGE (PRE-BLOCKCHAIN)</h3>
+            <Container>
+                <h3>SECTION 2: ZERO KNOWLEDGE (PRE-BLOCKCHAIN)</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
@@ -34,8 +34,8 @@ function Home() {
                     <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/number_theory/details"></Card>
                 </div>
             </Container>
-            <Container extClass={"card-container"}>
-                <h3 className='align-center'>Section 3: Zero Knowledge (Post-Blockchain)</h3>
+            <Container>
+                <h3>Section 3: Zero Knowledge (Post-Blockchain)</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
@@ -43,8 +43,8 @@ function Home() {
                     <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/number_theory/details"></Card>
                 </div>
             </Container>
-            <Container extClass={"card-container"}>
-                <h3 className='align-center'>Section 4: Future of Zero Knowledge</h3>
+            <Container>
+                <h3>Section 4: Future of Zero Knowledge</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>

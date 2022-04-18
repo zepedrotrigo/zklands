@@ -1,50 +1,29 @@
-.card-container {
-	height: 100%;
-	width: 80%;
-	background-color: #F2F2F2;
-	text-align: left;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-bottom: 1rem;
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 4rem;
-	margin-top: 4rem;
-	border: 1px solid rgba(var(--b6a,219,219,219),1);
-	border-radius: 15px;
-	padding: 2%;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 .container {
-	height: 100%;
-	width: 60%;
+	width: 80%;
+	align-self: center;
+	text-align: center;
+	margin-bottom: 4rem;
+	margin-top: 4rem;
+	padding: 2rem;
+
 	background-color: #F2F2F2;
-	text-align: left;
-	margin-top: 3rem;
-	margin-left: 20%;
-	margin-right: 20%;
-	padding-bottom: 1rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-bottom: 3rem;
 	border: 1px solid rgba(var(--b6a,219,219,219),1);
 	border-radius: 15px;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-	padding: 4rem;
-	padding-left: 10rem;
-	padding-right: 10rem;
 }
 
-.container.sm {
-	padding: 2%;
+.container.bg-margin {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.container.bg {
-	height: 100%;
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
-	align-items: center;
-	align-self: center;
+.container.bg-padding {
+	padding-left: 5rem;
+	padding-right: 5rem;
 }

@@ -22,7 +22,7 @@ function Course() {
 
     return (
         <div>
-            <Container extClass="container bg no-anim">
+            <Container extClass="container no-anim">
                 <div className='dynamic-content'>
                     <h3>{currentPage["title"]}</h3>
                     {displayContent(currentPage)}

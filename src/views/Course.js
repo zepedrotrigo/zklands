@@ -43,9 +43,9 @@ function displayContent(page) {
         l = lines[keyName]
 
         if (l["type"] === "text")
-            content.push(<p>{l["content"]}</p>);
+            content.push(<h5 className='font-size-sm justify'>{l["content"]}</h5>);
         else if (l["type"] === "jsx")
-            content.push(<div dangerouslySetInnerHTML={{ __html: l["content"] }}></div>);
+            content.push(<h5 className='font-size-sm justify' dangerouslySetInnerHTML={{ __html: l["content"] }}></h5>);
         else
             content.push(<SyntaxHighlighter language='l["type"]' style={afl}>{l["content"]}</SyntaxHighlighter>);
     })

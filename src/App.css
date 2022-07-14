@@ -21,6 +21,13 @@ h5 {
 	line-height: 1.5;
 }
 
+h6.v2 {
+	font-family: 'Roboto', sans-serif;
+	white-space: pre-wrap;
+	color: #070464;
+	line-height: 1.5;
+}
+
 h6 {
 	font-family: 'IBM Plex Mono', monospace;
 	align-self: center;

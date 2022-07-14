@@ -4,6 +4,7 @@ import Container from '../components/Container';
 import Card from '../components/Card';
 import imgLab from '../img/lab.png';
 import 'animate.css';
+import Latex from 'react-latex';
 
 function Home() {
 	useEffect(() => {
@@ -19,10 +20,10 @@ function Home() {
             <Container extClass={"container no-anim"}>
                 <h3>SECTION 1: PREREQUISITE TOPICS</h3>
                 <div className='cardsGroup'>
-                    <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
-                    <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
-                    <Card title="Discrete Maths" image={imgLab} buttonText="Start!" linkTo="/discrete_maths/details"></Card>
-                    <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/number_theory/details"></Card>
+                    <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/digital_signatures"></Card>
+                    <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/course"></Card>
+                    <Card title="Discrete Maths" image={imgLab} buttonText="Start!" linkTo="/course"></Card>
+                    <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/course"></Card>
                 </div>
             </Container>
             <Container>

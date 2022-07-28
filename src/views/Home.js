@@ -29,10 +29,8 @@ function Home() {
             <Container>
                 <h3>SECTION 2: ZERO KNOWLEDGE (PRE-BLOCKCHAIN)</h3>
                 <div className='cardsGroup'>
-                    <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/details"></Card>
-                    <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
-                    <Card title="Discrete Maths" image={imgLab} buttonText="Start!" linkTo="/discrete_maths/details"></Card>
-                    <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/number_theory/details"></Card>
+                    <Card title="Interactive Proofs" image={imgLab} buttonText="Start!" linkTo="/interactive_proofs/interactive_proofs"></Card>
+                    <Card title="ZKP Properties" image={imgLab} buttonText="Start!" linkTo="/zkp_properties/zkp_properties"></Card>
                 </div>
             </Container>
             <Container>

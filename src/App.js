@@ -7,6 +7,10 @@ import MerkleTrees from './views/section1/applied_cryptography/MerkleTrees';
 import PolynomialCommitmentSchemes from './views/section1/applied_cryptography/PolynomialCommitmentSchemes';
 import EllipticCurveCryptography from './views/section1/applied_cryptography/EllipticCurveCryptography';
 import EllipticCurvePairings from './views/section1/applied_cryptography/EllipticCurvePairings';
+import InteractiveProofs from './views/section2/interactive_proofs/InteractiveProofs';
+import RsaEncryptionScheme from './views/section2/interactive_proofs/RsaEncryptionScheme';
+import FiatShamir from './views/section2/interactive_proofs/FiatShamir';
+import ZkpProperties from './views/section2/zkp_properties/ZkpProperties';
 
 function App() {
 	// You can put javascript code here or declare constants!
@@ -19,6 +23,7 @@ function App() {
 					<Routes>
 						<Route path="/zklands" element={<Home />} />
 						{/* section 1 */}
+								{/* topic 1 */}
 						<Route path="/applied_cryptography/digital_signatures" element={<DigitalSignatures />} />
 						<Route path="/applied_cryptography/public_key_encryption" element={<PublicKeyEncryption />} />
 						<Route path="/applied_cryptography/merkle_trees" element={<MerkleTrees />} />
@@ -26,6 +31,12 @@ function App() {
 						<Route path="/applied_cryptography/elliptic_curve_cryptography" element={<EllipticCurveCryptography />} />
 						<Route path="/applied_cryptography/elliptic_curve_pairings" element={<EllipticCurvePairings />} />
 						{/* section 2 */}
+								{/* topic 1 */}
+						<Route path="/interactive_proofs/interactive_proofs" element={<InteractiveProofs />} />
+						<Route path="/interactive_proofs/rsa_encryption_scheme" element={<RsaEncryptionScheme />} />
+						<Route path="/interactive_proofs/fiat_shamir" element={<FiatShamir />} />
+								{/* topic 2 */}
+						<Route path="/zkp_properties/zkp_properties" element={<ZkpProperties />} />
 						{/* section 3 */}
 					</Routes>
 				</div>

@@ -11,6 +11,8 @@ import InteractiveProofs from './views/section2/interactive_proofs/InteractivePr
 import RsaEncryptionScheme from './views/section2/interactive_proofs/RsaEncryptionScheme';
 import FiatShamir from './views/section2/interactive_proofs/FiatShamir';
 import ZkpProperties from './views/section2/zkp_properties/ZkpProperties';
+import ChineseRemainderTheorem from './views/section1/modular_arithmetic/ChineseRemainderTheorem';
+import ModularInverses from './views/section1/modular_arithmetic/ModularInverses';
 
 function App() {
 	// You can put javascript code here or declare constants!
@@ -30,6 +32,12 @@ function App() {
 						<Route path="/applied_cryptography/polynomial_commitment_schemes" element={<PolynomialCommitmentSchemes />} />
 						<Route path="/applied_cryptography/elliptic_curve_cryptography" element={<EllipticCurveCryptography />} />
 						<Route path="/applied_cryptography/elliptic_curve_pairings" element={<EllipticCurvePairings />} />
+								{/* topic 2 */}
+						<Route path="/modular_arithmetic/chinese_remainder_theorem" element={<ChineseRemainderTheorem />} />
+						<Route path="/modular_arithmetic/modular_inverses" element={<ModularInverses />} />
+								{/* topic 3 */}
+								{/* topic 4 */}
+
 						{/* section 2 */}
 								{/* topic 1 */}
 						<Route path="/interactive_proofs/interactive_proofs" element={<InteractiveProofs />} />

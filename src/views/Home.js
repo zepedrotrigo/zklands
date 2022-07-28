@@ -21,7 +21,7 @@ function Home() {
                 <h3>SECTION 1: PREREQUISITE TOPICS</h3>
                 <div className='cardsGroup'>
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/digital_signatures"></Card>
-                    <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/course"></Card>
+                    <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/chinese_remainder_theorem"></Card>
                     <Card title="Discrete Maths" image={imgLab} buttonText="Start!" linkTo="/course"></Card>
                     <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/course"></Card>
                 </div>

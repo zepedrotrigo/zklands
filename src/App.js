@@ -15,6 +15,9 @@ import ChineseRemainderTheorem from './views/section1/modular_arithmetic/Chinese
 import ModularInverses from './views/section1/modular_arithmetic/ModularInverses';
 import GroupsAndFields from './views/section1/algebra_and_discrete_maths/GroupsAndFields';
 import Polynomials from './views/section1/algebra_and_discrete_maths/Polynomials';
+import Theorems from './views/section1/number_theory/Theorems';
+import QuadraticResidues from './views/section1/number_theory/QuadraticResidues';
+import ExtendedEuclideanAlgorithm from './views/section1/number_theory/ExtendedEuclideanAlgorithm';
 
 function App() {
 	// You can put javascript code here or declare constants!
@@ -41,7 +44,9 @@ function App() {
 						<Route path="/algebra_and_discrete_maths/groups_and_fields" element={<GroupsAndFields />} />
 						<Route path="/algebra_and_discrete_maths/polynomials" element={<Polynomials />} />
 						{/* topic 4 */}
-
+						<Route path="/number_theory/theorems" element={<Theorems />} />
+						<Route path="/number_theory/quadratic_residues" element={<QuadraticResidues />} />
+						<Route path="/number_theory/extended_euclidean_algorithm" element={<ExtendedEuclideanAlgorithm />} />
 						{/* section 2 */}
 						{/* topic 1 */}
 						<Route path="/interactive_proofs/interactive_proofs" element={<InteractiveProofs />} />

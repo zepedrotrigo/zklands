@@ -23,7 +23,7 @@ function Home() {
                     <Card title="Applied Cryptography" image={imgLab} buttonText="Start!" linkTo="/applied_cryptography/digital_signatures"></Card>
                     <Card title="Modular Arithmetic" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/chinese_remainder_theorem"></Card>
                     <Card title="Discrete Maths" image={imgLab} buttonText="Start!" linkTo="/algebra_and_discrete_maths/groups_and_fields"></Card>
-                    <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/course"></Card>
+                    <Card title="Number Theory" image={imgLab} buttonText="Start!" linkTo="/number_theory/theorems"></Card>
                 </div>
             </Container>
             <Container>

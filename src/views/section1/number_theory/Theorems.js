@@ -4,7 +4,6 @@ import '../../../App.css';
 import Container from '../../../components/Container';
 import ArrowButton from "../../../components/ArrowButton"
 import 'animate.css';
-import Latex from 'react-latex';
 
 function Theorems() {
     useEffect(() => {

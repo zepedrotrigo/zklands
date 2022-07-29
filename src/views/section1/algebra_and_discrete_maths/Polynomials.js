@@ -2,9 +2,7 @@ import React, { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../../../App.css';
 import Container from '../../../components/Container';
-import ArrowButton from "../../../components/ArrowButton"
 import 'animate.css';
-import Latex from 'react-latex';
 import Button from '../../../components/Button';
 
 function Polynomials() {

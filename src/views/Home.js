@@ -4,7 +4,6 @@ import Container from '../components/Container';
 import Card from '../components/Card';
 import imgLab from '../img/lab.png';
 import 'animate.css';
-import Latex from 'react-latex';
 
 function Home() {
 	useEffect(() => {

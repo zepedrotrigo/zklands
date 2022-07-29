@@ -18,6 +18,12 @@ import Polynomials from './views/section1/algebra_and_discrete_maths/Polynomials
 import Theorems from './views/section1/number_theory/Theorems';
 import QuadraticResidues from './views/section1/number_theory/QuadraticResidues';
 import ExtendedEuclideanAlgorithm from './views/section1/number_theory/ExtendedEuclideanAlgorithm';
+import AlgebraicCircuits from './views/section3/snarks/AlgebraicCircuits';
+import R1cs from './views/section3/snarks/R1cs';
+import Qap from './views/section3/snarks/Qap';
+import LinearPcp from './views/section3/snarks/LinearPcp';
+import LinearIP from './views/section3/snarks/LinearIP';
+import Snarks from './views/section3/snarks/Snarks';
 
 function App() {
 	// You can put javascript code here or declare constants!
@@ -55,6 +61,17 @@ function App() {
 						{/* topic 2 */}
 						<Route path="/zkp_properties/zkp_properties" element={<ZkpProperties />} />
 						{/* section 3 */}
+						{/* topic 1 */}
+						<Route path="/zk_snarks/algebraic_circuits" element={<AlgebraicCircuits />} />
+						<Route path="/zk_snarks/r1cs" element={<R1cs />} />
+						<Route path="/zk_snarks/qap" element={<Qap />} />
+						<Route path="/zk_snarks/linear_pcp" element={<LinearPcp />} />
+						<Route path="/zk_snarks/linear_ip" element={<LinearIP />} />
+						<Route path="/zk_snarks/snarks" element={<Snarks />} />
+						{/* topic 2 */}
+						{/* topic 3 */}
+						{/* topic 4 */}
+
 					</Routes>
 				</div>
 				<footer></footer>

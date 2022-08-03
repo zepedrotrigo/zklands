@@ -24,6 +24,17 @@ import Qap from './views/section3/snarks/Qap';
 import LinearPcp from './views/section3/snarks/LinearPcp';
 import LinearIP from './views/section3/snarks/LinearIP';
 import Snarks from './views/section3/snarks/Snarks';
+import Introduction from './views/section3/starks/Introduction';
+import BasicToolsStatements from './views/section3/starks/BasicToolsStatements';
+import PolynomialConstraints from './views/section3/starks/PolynomialConstraints';
+import FriProtocol from './views/section3/starks/FriProtocol';
+import ProofsWithPolynomials from './views/section3/starks/ProofsWithPolynomials';
+import MoreProofSystems from './views/section3/more_proof_systems/MoreProofSystems';
+import Intro from './views/section3/pratical_use_cases/Intro';
+import IdentityWhy from './views/section3/pratical_use_cases/IdentityWhy';
+import IdentityHow from './views/section3/pratical_use_cases/IdentityHow';
+import MachineLearning from './views/section3/pratical_use_cases/MachineLearning';
+import Voting from './views/section3/pratical_use_cases/Voting';
 
 function App() {
 	// You can put javascript code here or declare constants!
@@ -69,8 +80,21 @@ function App() {
 						<Route path="/zk_snarks/linear_ip" element={<LinearIP />} />
 						<Route path="/zk_snarks/snarks" element={<Snarks />} />
 						{/* topic 2 */}
+						<Route path="/zk_starks/intro" element={<Introduction />} />
+						<Route path="/zk_starks/tools_statements" element={<BasicToolsStatements />} />
+						<Route path="/zk_starks/polynomial_constraints" element={<PolynomialConstraints />} />
+						<Route path="/zk_starks/fri" element={<FriProtocol />} />
+						<Route path="/zk_starks/proofs_polynomials" element={<ProofsWithPolynomials />} />
 						{/* topic 3 */}
+						<Route path="/more_proof_systems/intro" element={<MoreProofSystems />} />
 						{/* topic 4 */}
+						<Route path="/use_cases/intro" element={<Intro />} />
+						<Route path="/use_cases/identity_why" element={<IdentityWhy />} />
+						<Route path="/use_cases/identity_how" element={<IdentityHow />} />
+						<Route path="/use_cases/machine_learning" element={<MachineLearning />} />
+						<Route path="/use_cases/voting" element={<Voting />} />
+
+
 
 					</Routes>
 				</div>

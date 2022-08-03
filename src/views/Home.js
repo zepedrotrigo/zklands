@@ -36,8 +36,9 @@ function Home() {
                 <h3>Section 3: Zero Knowledge (Post-Blockchain)</h3>
                 <div className='cardsGroup'>
                     <Card title="ZK-SNARKS" image={imgLab} buttonText="Start!" linkTo="/zk_snarks/algebraic_circuits"></Card>
-                    <Card title="TO BE DONE" image={imgLab} buttonText="Start!" linkTo="/modular_arithmetic/details"></Card>
-                    <Card title="TO BE DONE" image={imgLab} buttonText="Start!" linkTo="/discrete_maths/details"></Card>
+                    <Card title="ZK-STARKS" image={imgLab} buttonText="Start!" linkTo="/zk_starks/intro"></Card>
+                    <Card title="More Proof Systems" image={imgLab} buttonText="Start!" linkTo="/more_proof_systems/intro"></Card>
+                    <Card title="Pratical Use Cases" image={imgLab} buttonText="Start!" linkTo="/use_cases/intro"></Card>
                 </div>
             </Container>
         </div>

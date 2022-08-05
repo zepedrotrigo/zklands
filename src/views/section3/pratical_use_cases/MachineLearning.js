@@ -18,7 +18,7 @@ function MachineLearning() {
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
             <Container extClass="container bg-margin bg-padding no-anim">
-                <h3>Machine Learning and ZK (biometric)</h3>
+                <h3>Machine Learning and ZK</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>Compute heavy applications like Machine learning algorithms are too expensive to run directly on the blockchain. Therefore, we need to perform these algorithms off-chain and come up with a way to verify that the computations have been executed and that their result is accurate.<br />
                         <br></br>Zero knowledge proofs allow this concept to work by providing a proof that the computations were correctly executed, whilst also protecting private data such as input parameters. The proof can then be verified once it is in the chain for a much lower computational cost than directly running the machine learning algorithm in the blockchain, enabling the implementation of on-chain private machine learning models.<br />

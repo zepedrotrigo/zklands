@@ -33,6 +33,7 @@ import MoreProofSystems from './views/section3/more_proof_systems/MoreProofSyste
 import Intro from './views/section3/pratical_use_cases/Intro';
 import IdentityWhy from './views/section3/pratical_use_cases/IdentityWhy';
 import IdentityHow from './views/section3/pratical_use_cases/IdentityHow';
+import IdentityHowPart2 from './views/section3/pratical_use_cases/IdentityHowPart2';
 import MachineLearning from './views/section3/pratical_use_cases/MachineLearning';
 import Voting from './views/section3/pratical_use_cases/Voting';
 
@@ -91,6 +92,7 @@ function App() {
 						<Route path="/use_cases/intro" element={<Intro />} />
 						<Route path="/use_cases/identity_why" element={<IdentityWhy />} />
 						<Route path="/use_cases/identity_how" element={<IdentityHow />} />
+						<Route path="/use_cases/identity_how2" element={<IdentityHowPart2 />} />
 						<Route path="/use_cases/machine_learning" element={<MachineLearning />} />
 						<Route path="/use_cases/voting" element={<Voting />} />
 

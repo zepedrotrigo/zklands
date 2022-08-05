@@ -6,6 +6,7 @@ import PublicKeyEncryption from './views/section1/applied_cryptography/PublicKey
 import MerkleTrees from './views/section1/applied_cryptography/MerkleTrees';
 import PolynomialCommitmentSchemes from './views/section1/applied_cryptography/PolynomialCommitmentSchemes';
 import EllipticCurveCryptography from './views/section1/applied_cryptography/EllipticCurveCryptography';
+import EllipticCurveCryptographyPart2 from './views/section1/applied_cryptography/EllipticCurveCryptographyPart2';
 import EllipticCurvePairings from './views/section1/applied_cryptography/EllipticCurvePairings';
 import InteractiveProofs from './views/section2/interactive_proofs/InteractiveProofs';
 import RsaEncryptionScheme from './views/section2/interactive_proofs/RsaEncryptionScheme';
@@ -54,6 +55,7 @@ function App() {
 						<Route path="/applied_cryptography/merkle_trees" element={<MerkleTrees />} />
 						<Route path="/applied_cryptography/polynomial_commitment_schemes" element={<PolynomialCommitmentSchemes />} />
 						<Route path="/applied_cryptography/elliptic_curve_cryptography" element={<EllipticCurveCryptography />} />
+						<Route path="/applied_cryptography/elliptic_curve_cryptography2" element={<EllipticCurveCryptographyPart2 />} />
 						<Route path="/applied_cryptography/elliptic_curve_pairings" element={<EllipticCurvePairings />} />
 						{/* topic 2 */}
 						<Route path="/modular_arithmetic/chinese_remainder_theorem" element={<ChineseRemainderTheorem />} />

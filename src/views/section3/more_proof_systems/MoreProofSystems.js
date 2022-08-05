@@ -13,11 +13,11 @@ function MoreProofSystems() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>More Proof Systems</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>Besides zk-SNARKs and zk-STARKS, there are many more proof systems like PLONK and Halo2 that provide many new features and upgrades that greatly improve the usability of zk-proofs.</p>

@@ -13,11 +13,11 @@ function EllipticCurveCryptography() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Elliptic Curve Cryptography</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>Elliptic Curves Cryptography is a protocol that relies on Elliptic Curves and in the use of trapdoors functions, i.e. functions that are easy to compute in one way, but difficult to compute in the opposite direction (finding its inverse).</p>

@@ -12,11 +12,11 @@ function PublicKeyEncryption() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Public Key Encryption</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>In public key encryption, a different pair of keys is used to encrypt and decrypt information. A public key is used for encryption and a private key is used for decryption. Even if the public key is known by everyone, only the intended receiver can decode it because he alone knows the private key.</p>

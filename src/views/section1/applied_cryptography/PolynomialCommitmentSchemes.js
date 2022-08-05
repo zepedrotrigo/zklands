@@ -12,11 +12,11 @@ function PolynomialCommitmentSchemes() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Polynomial Commitment Schemes</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>A polynomial commitment scheme allows a prover to compute a commitment to a polynomial. This commitment can later be opened at any position: The prover shows that the value of the polynomial at a certain position is equal to a claimed value.</p>

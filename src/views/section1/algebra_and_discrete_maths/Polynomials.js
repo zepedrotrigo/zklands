@@ -12,11 +12,11 @@ function Polynomials() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Modular Inverses</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>A polynomial is a class of algebraic expressions consisting of variables and coefficients, that involves only operations of addiction, subtraction, multiplication and division. The exponent of a polynomial must be a positive integer. Throughout this module we are only going to talk about polynomials with a single variable. These types of polynomials are a finite sum of terms of the form <span class="math inline"><em>c</em><em>x</em><sup><em>n</em></sup></span>, where <span class="math inline"><em>c</em></span> is the coefficient, so a polynomial can be denoted as <span class="math display"><em>P</em>(<em>x</em>) = <em>a</em><sub><em>n</em></sub><em>x</em><sup><em>n</em></sup> + <em>a</em><sub><em>n</em> − 1</sub><em>x</em><sup><em>n</em> − 1</sup> + … + <em>a</em><sub>1</sub><em>x</em><sup>1</sup> + <em>a</em><sub>0</sub></span> where <span class="math inline"><em>n</em></span> is the biggest number and it’s the degree of a polynomial and its coefficient is the leading coefficient.</p>

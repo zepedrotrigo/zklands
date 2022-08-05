@@ -13,11 +13,11 @@ function QuadraticResidues() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Quadratic Residues</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>An element <span class="math inline"><em>a</em> ∈ ℤ<sub><em>m</em></sub><sup>*</sup></span> is Quadratic Residue modulo <span class="math inline"><em>m</em></span> if <span class="math inline"><em>a</em> = <em>x</em><sup>2</sup></span> for some <span class="math inline"><em>x</em> ∈ ℤ<sub><em>m</em></sub><sup>*</sup></span>. If there is no such solution, we say that <span class="math inline"><em>a</em></span> in a Quadratic Non-Residue modulo <span class="math inline"><em>m</em></span>.<br />

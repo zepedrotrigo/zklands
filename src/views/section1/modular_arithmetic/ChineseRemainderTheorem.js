@@ -13,11 +13,11 @@ function ChineseRemainderTheorem() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Chinese Remainder Theorem</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>Given <span class="math inline"><em>m</em><sub>1</sub>, <em>m</em><sub>2</sub>, …, <em>m</em><sub><em>k</em></sub> ∈ ℕ</span>, pairwise coprimes and an arbitrary integers <span class="math inline"><em>a</em><sub>1</sub>, <em>a</em><sub>2</sub>, …, <em>a</em><sub><em>k</em></sub></span>, then following system of linear congruences has one and only one solution modulo <span class="math inline"><em>m</em> = <em>m</em><sub>1</sub><em>m</em><sub>2</sub>…<em>m</em><sub><em>k</em></sub></span>:</p>

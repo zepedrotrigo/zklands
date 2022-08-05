@@ -13,11 +13,11 @@ function RsaEncryptionScheme() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Rsa Encryption Scheme</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>The <span class="math inline"><em>R</em><em>S</em><em>A</em></span> Encryption Scheme is a asymmetric cipher which relies heavily on concepts like modular arithmetic and number theory, if you are not familiar with those, please consider check our chapter 1 for further information. We will work under the assumption you at least have some grasping of it.</p>

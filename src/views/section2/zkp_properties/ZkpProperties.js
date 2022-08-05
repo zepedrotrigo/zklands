@@ -12,11 +12,11 @@ function ZkpProperties() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>ZKP Properties</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>Zero-knowledge proofs were first introduced by Shafi Goldwasser, Silvio Micali and Charles Rackoff, in 1989. In simple terms, a Zero-Knowledge proof is a method by which one party (the prover) can prove to another party (the verifier) that some computation has a particular output or some information is true, while keeping some of the inputs hidden and avoid conveying any additional information apart from the fact that the statement is indeed true.</p>

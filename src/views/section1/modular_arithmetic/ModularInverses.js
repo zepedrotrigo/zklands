@@ -13,11 +13,11 @@ function ModularInverses() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Modular Inverses</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>Given a (commutative) ring <span class="math inline"><em>A</em></span> and elements <span class="math inline"><em>a</em>, <em>b</em>, <em>m</em> ∈ <em>A</em></span>, we denote <span class="math inline"><em>a</em> ≡ <em>b</em> (<em>m</em><em>o</em><em>d</em> <em>m</em>)</span> to say that <span class="math inline"><em>m</em>|(<em>a</em>−<em>b</em>)</span></p>

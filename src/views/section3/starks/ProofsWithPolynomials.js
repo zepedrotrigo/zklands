@@ -13,11 +13,11 @@ function ProofsWithPolynomials() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>ZK-STARKS</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <h6 id="proofs-with-polynomials-the-stark-polynomial-iop">Proofs with polynomials (the STARK polynomial IOP)</h6>

@@ -12,11 +12,11 @@ function FiatShamir() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Fiat-Shamir</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>The Fiat-Shamir heuristic is a technique that given an interactive proof of knowledge creates a digital signature from it. Because of Fiat-Shamir, any interactive proof of knowledge can be transformed into a non-interactive one, in theory, by using a random oracle access. In practice, we use a cryptographic hash function for this purpose.</p>

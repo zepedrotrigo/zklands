@@ -13,11 +13,11 @@ function InteractiveProofs() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Interactive Proofs</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>Given <span class="math inline"><em>f</em>(<em>x</em>) = <em>g</em><sup><em>x</em></sup></span>, Alice wants to prove Bob she knows <span class="math inline"><em>x</em></span> without revealing any information about <span class="math inline"><em>x</em></span>. Bob knows <span class="math inline"><em>f</em>(<em>x</em>) = <em>g</em><sup><em>x</em></sup></span>.</p>

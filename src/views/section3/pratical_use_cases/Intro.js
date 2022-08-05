@@ -13,11 +13,11 @@ function Intro() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Introduction</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <h6 id="scaling-on-layer-2-with-zk-rollups">Scaling on Layer 2 with ZK-Rollups</h6>

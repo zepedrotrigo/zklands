@@ -13,15 +13,15 @@ function IdentityHow() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Identity: How</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>ZK Identity tools must enable participants to make claims about identity and reputation. These claims rely on cryptographic concepts like digital signature verification, key generation, hash functions and encryption. By combining these concepts we can build increasingly more complex claims about identity and reputation.<br />
-                        But, in order for ZK Identity applications to thrive, there needs to be significant improvement on mainly four fronts: ZK application design patterns, implementation of ZK circuits for cryptographic primitives, circuit security tools, and developer tools and infrastructure.</p>
+                        <br></br>But, in order for ZK Identity applications to thrive, there needs to be significant improvement on mainly four fronts: ZK application design patterns, implementation of ZK circuits for cryptographic primitives, circuit security tools, and developer tools and infrastructure.</p>
                     <br></br>
                     <h6 id="zk-apps-and-design-patterns">ZK Apps and Design Patterns</h6>
                     <p>The question we need to ask ourselves is: What is the best way to build and use ZK tooling? Here are some considerations we need to keep in mind when building these tools:</p>

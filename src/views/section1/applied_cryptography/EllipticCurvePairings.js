@@ -12,11 +12,11 @@ function EllipticCurvePairings() {
 
     return (
         <div>
-            <Container extClass="container bg-margin no-anim">
+            <Container extClass="container  no-anim">
                 <h3>ZK Lands</h3>
                 <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
             </Container>
-            <Container extClass="container bg-margin bg-padding no-anim">
+            <Container extClass="container  bg-padding no-anim">
                 <h3>Elliptic Curve Pairings</h3>
                 <h6 className='v2 top-spacing-bg justify'>
                     <p>An elliptic curve pairing is a bilinear map that takes a pair of points on the elliptic curve and outputs an element of some other group.</p>

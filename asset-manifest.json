@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zklands/static/css/main.976ba4ef.css",
-    "main.js": "/zklands/static/js/main.25d64aaa.js",
+    "main.css": "/zklands/static/css/main.4aa5debf.css",
+    "main.js": "/zklands/static/js/main.d91e71d3.js",
     "static/js/787.28cb0dcd.chunk.js": "/zklands/static/js/787.28cb0dcd.chunk.js",
     "static/media/gradient.jpg": "/zklands/static/media/gradient.4de8f68f4fa8834e99f8.jpg",
     "static/media/lab.png": "/zklands/static/media/lab.edb643a7f6b89499fff3.png",
@@ -11,12 +11,12 @@
     "static/media/kea.png": "/zklands/static/media/kea.d59577812f18f80e6c9c.png",
     "static/media/starks_paths.png": "/zklands/static/media/starks_paths.3fcbc773eb9eb92c89df.png",
     "index.html": "/zklands/index.html",
-    "main.976ba4ef.css.map": "/zklands/static/css/main.976ba4ef.css.map",
-    "main.25d64aaa.js.map": "/zklands/static/js/main.25d64aaa.js.map",
+    "main.4aa5debf.css.map": "/zklands/static/css/main.4aa5debf.css.map",
+    "main.d91e71d3.js.map": "/zklands/static/js/main.d91e71d3.js.map",
     "787.28cb0dcd.chunk.js.map": "/zklands/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.976ba4ef.css",
-    "static/js/main.25d64aaa.js"
+    "static/css/main.4aa5debf.css",
+    "static/js/main.d91e71d3.js"
   ]
 }

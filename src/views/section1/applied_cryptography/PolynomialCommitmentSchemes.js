@@ -12,10 +12,12 @@ function PolynomialCommitmentSchemes() {
 
     return (
         <div>
-            <Container extClass="container  no-anim">
-                <h3>ZK Lands</h3>
-                <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
-            </Container>
+            <Link to={`/zklands`} style={{ textDecoration: "none" }}>
+                <Container extClass="container home no-anim">
+                    <h3>ZK Lands</h3>
+                    <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
+                </Container>
+            </Link>
             <Container extClass="container  bg-padding no-anim">
                 <h3>Polynomial Commitment Schemes</h3>
                 <h6 className='v2 top-spacing-bg justify'>

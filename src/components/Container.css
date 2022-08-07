@@ -23,3 +23,9 @@
 	padding-left: 8%;
 	padding-right: 8%;
 }
+
+.home:hover {
+    transform: scale(1.05);
+    transition: transform .2s;
+	cursor: pointer;
+}

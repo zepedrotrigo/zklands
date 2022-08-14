@@ -14,7 +14,7 @@ function AlgebraicCircuits() {
 
     return (
         <div>
-            <Link to={`/zklands`} style={{ textDecoration: "none" }}>
+            <Link to={`/`} style={{ textDecoration: "none" }}>
                 <Container extClass="container home no-anim">
                     <h3>ZK Lands</h3>
                     <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
@@ -59,7 +59,7 @@ function AlgebraicCircuits() {
                 </h6>
 
                 <div class='arrowsGroup'>
-                    <Link to={`/zklands`}>
+                    <Link to={`/`}>
                         <ArrowButton dir="left"></ArrowButton>
                     </Link>
                     <Link to={`/zk_snarks/r1cs`}>

@@ -13,7 +13,7 @@ function InteractiveProofs() {
 
     return (
         <div>
-            <Link to={`/zklands`} style={{ textDecoration: "none" }}>
+            <Link to={`/`} style={{ textDecoration: "none" }}>
                 <Container extClass="container home no-anim">
                     <h3>ZK Lands</h3>
                     <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
@@ -46,7 +46,7 @@ function InteractiveProofs() {
                 </h6>
 
                 <div className='arrowsGroup'>
-                    <Link to={`/zklands`}>
+                    <Link to={`/`}>
                         <ArrowButton dir="left"></ArrowButton>
                     </Link>
                     <Link to={`/interactive_proofs/rsa_encryption_scheme`}>

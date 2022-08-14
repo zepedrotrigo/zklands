@@ -15,7 +15,7 @@ function Snarks() {
 
     return (
         <div>
-            <Link to={`/zklands`} style={{ textDecoration: "none" }}>
+            <Link to={`/`} style={{ textDecoration: "none" }}>
                 <Container extClass="container home no-anim">
                     <h3>ZK Lands</h3>
                     <h5>{"A fun, free platform for learning about zero knowledge!"}</h5>
@@ -32,7 +32,7 @@ function Snarks() {
                     <center><img src={img1} style={{width:'75%', height:'75%'}}></img></center>
                 </h6>
 
-                <Link to={`/zklands`}>
+                <Link to={`/`}>
                     <Button text="Finish!"></Button>
                 </Link>
             </Container>

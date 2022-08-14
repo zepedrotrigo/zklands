@@ -47,7 +47,7 @@ function App() {
 			<div className='App'>
 				<div className='content'>
 					<Routes>
-						<Route path="/zklands" element={<Home />} />
+						<Route path="/" element={<Home />} />
 						{/* section 1 */}
 						{/* topic 1 */}
 						<Route path="/applied_cryptography/digital_signatures" element={<DigitalSignatures />} />
